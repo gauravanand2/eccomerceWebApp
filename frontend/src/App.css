@@ -1,0 +1,74 @@
+/*
+1 Font family
+2 theme css
+
+*/
+
+/*1 Font family*/
+@import url(./assets/fontawesome-free/css/all.css);
+@font-face {
+    font-family: heading;
+    src: url(./assets/font/bold.ttf);
+}
+
+@font-face {
+    font-family: regular;
+    src: url(./assets/font/regular.ttf);
+}
+
+.head{
+    font-family: heading;
+}
+
+.regular{
+    font-family: regular;
+}
+
+
+/*2. theme css*/
+
+.theme-background{
+    background: transparent linear-gradient(90deg, #0061FF 0%, #1F8FFF 32%, #39B5FF 59%, #51D9FF 84%, #5AE6FF 94%, #60EFFF 100%) 0% 0% no-repeat padding-box;
+    
+}
+.theme-background a{
+    color: rgba(255, 255, 255, 0.9);
+    text-decoration: none;
+}
+
+.container{
+    padding: 15px;
+}
+
+.navbar .nav{
+    display: flex;
+}
+
+.navbar span{
+    margin:0;
+    font-size: 2rem;
+}
+
+.nav-item{
+    margin-top: 5px;
+}
+
+.nav-item .head{
+    font-size: 1.5rem;
+}
+
+.nav-item ul{
+    list-style: none;
+    display: inline;
+    padding-top: 20px;
+}
+
+.nav-item ul li{
+    display: inline-block;
+    
+   
+}
+
+.nav-item li:nth-child(1n){
+    margin-left: 1rem ;
+}
